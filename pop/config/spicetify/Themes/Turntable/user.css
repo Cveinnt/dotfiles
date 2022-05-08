@@ -1,0 +1,342 @@
+:root {
+  --spotify-main-color: #1db954;
+  --round-value: 50%;
+  --main-blur-backdrop: blur(20px) saturate(180%)
+}
+
+
+/* Remove Upgrade Button, User Name */
+.main-topBar-UpgradeButton,
+.main-userWidget-displayName {
+  display: none
+}
+
+
+/* Notification Dot */
+.main-userWidget-notificationDot {
+  color: #f00
+}
+
+
+/* Navbar */
+.Root__nav-bar {
+  background-color: #0f0f0f
+}
+
+.main-rootlist-rootlistDividerGradient {
+  display: none
+}
+
+
+/* Search Input */
+.x-searchInput-searchInputInput {
+  background-color: #2a2a2a
+}
+
+.x-searchInput-searchInputInput,
+.x-searchInput-searchInputSearchIcon,
+.x-searchInput-searchInputClearButton {
+  color: #c0c0c0 !important
+}
+
+.x-searchInput-searchInputInput::placeholder {
+  color: #888
+}
+
+
+/* Playlist */
+.main-entityHeader-backgroundColor,
+.main-actionBarBackground-background,
+.main-topBar-overlay {
+  background-color: unset !important
+}
+
+.main-entityHeader-overlay {
+  background: unset
+}
+
+.main-actionBarBackground-background {
+  background-image: unset
+}
+
+.main-entityHeader-shadow {
+  box-shadow: unset
+}
+
+.main-topBar-background {
+  background-color: #181818 !important
+}
+
+.main-rootlist-wrapper [role="row"]:nth-child(odd) {
+  background: linear-gradient(to right, #121212, #191919, #121212)
+}
+
+
+/* Cover Image */
+.main-nowPlayingWidget-coverExpanded{
+  transform: translateX(-78px)
+}
+
+.main-coverSlotCollapsed-container {
+  margin-right: 5px
+}
+
+.main-nowPlayingWidget-coverArt .cover-art.shadow,
+.main-nowPlayingWidget-coverArt .cover-art-image {
+  border-radius: var(--round-value)
+}
+
+.main-nowPlayingWidget-coverArt .cover-art.shadow {
+  box-shadow: unset
+}
+
+.main-nowPlayingWidget-coverArt .cover-art-image {
+  border: 2px solid #aaa;
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgba(200, 200, 200, .4)
+}
+
+/* Expand & Collapse Button */
+.main-coverSlotCollapsed-expandButton {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important
+}
+
+.main-coverSlotCollapsed-expandButton,
+.main-coverSlotExpandedCollapseButton-collapseButton {
+  backdrop-filter: var(--main-blur-backdrop);
+  background: unset;
+  background-color: rgba(9, 9, 9, .2);
+  transition: background-color .5s, opacity .5s;
+  border-radius: var(--round-value)
+}
+
+.main-coverSlotCollapsed-expandButton:hover,
+.main-coverSlotExpandedCollapseButton-collapseButton:hover {
+  background: unset;
+  background-color: rgba(9, 9, 9, .3);
+  transform: unset
+}
+
+.main-coverSlotCollapsed-chevron,
+.main-coverSlotExpandedCollapseButton-chevron {
+  padding: 5px;
+  fill: #fff;
+  transition: fill .5s
+}
+
+.main-coverSlotCollapsed-expandButton:hover .main-coverSlotCollapsed-chevron,
+.main-coverSlotExpandedCollapseButton-collapseButton:hover .main-coverSlotExpandedCollapseButton-chevron {
+  fill: #ddd
+}
+
+
+/* Progress Bar */
+.Root__now-playing-bar {
+  position: relative
+}
+
+.playback-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.progress-bar-wrapper {
+  height: 4px
+}
+
+.playback-bar .progress-bar__fg {
+  background-color: var(--spotify-main-color)
+}
+
+.playback-bar__progress-time,
+.main-playbackBarRemainingTime-container {
+  position: absolute;
+  top: 12px;
+  left: 50%
+}
+
+.playback-bar__progress-time {
+  transform: translateX(-45px)
+}
+
+.playback-bar__progress-time::after {
+  position: absolute;
+  right: -5px;
+  font-weight: bold;
+  color: var(--spotify-main-color);
+  content: "/"
+}
+
+.main-playbackBarRemainingTime-container {
+  transform: translateX(-1px)
+}
+
+.player-controls {
+  margin-top: 38px
+}
+
+
+/* Full App Display */
+#full-app-display {
+  background: radial-gradient(#242424, #1f1f1f)
+}
+
+#fad-background {
+  display: none
+}
+
+#fad-art,
+#fad-art-image,
+#fad-art-inner {
+  border-radius: var(--round-value) !important
+}
+
+#fad-art {
+  width: 300px !important;
+  margin: 60px 80px;
+  position: relative;
+  transform: scale(.85)
+}
+
+#fad-art-image {
+  box-shadow: 0 0 10px rgba(3, 3, 3, .5) inset
+}
+
+#fad-art-inner {
+  display: none
+}
+
+#fad-art::before, #fad-art::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  content: ''
+}
+
+#fad-art::before {
+  background: radial-gradient(#333, #000);
+  box-shadow: 0 0 10px #000;
+  transform: scale(1.5)
+}
+
+#fad-art::after {
+  background-color: rgba(60, 60, 60, .1);
+  transform: scale(1.65);
+  z-index: -1
+}
+
+#fad-details {
+  max-width: 520px !important
+}
+
+#fad-details #fad-title {
+  font-size: 32px
+}
+
+#fad-details #fad-artist {
+  margin-top: 10px;
+  font-size: 24px
+}
+
+#fad-details #fad-album {
+  margin-top: 6px;
+  font-size: 16px
+}
+
+#fad-details #fad-artist > *,
+#fad-details #fad-album > *,
+#fad-details #fad-status > #fad-controls > * > svg {
+  vertical-align: middle
+}
+
+#fad-details #fad-artist > svg {
+  width: 24px;
+  height: 24px
+}
+
+#fad-details #fad-album > svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  margin-right: 9px
+}
+
+#fad-play > svg {
+  width: 24px;
+  height: 24px
+}
+
+#fad-controls > button > svg {
+  fill: #ccc
+}
+
+#fad-controls > button:hover > svg {
+  fill: #fff
+}
+
+#fad-progress-container {
+  font-size: 12px
+}
+
+#fad-elapsed,
+#fad-duration {
+  min-width: 32px !important
+}
+
+#fad-progress {
+  height: 2px !important;
+  background-color: rgba(100, 100, 100, .5) !important
+}
+
+#fad-progress-inner {
+  background-color: var(--spotify-main-color) !important;
+  box-shadow: unset !important
+}
+
+
+/* Blur the Full App Display */
+[data-is-blur-fad = "true"] #fad-background {
+  display: unset
+}
+
+[data-is-blur-fad = "true"] #fad-art::before {
+  background: radial-gradient(#242424, #000)
+}
+
+[data-is-blur-fad = "true"] #fad-art::after {
+  background-color: rgba(40, 40, 40, .1);
+  box-shadow: 0 0 1px rgba(100, 100, 100, .4)
+}
+
+[data-is-blur-fad = "true"] #fad-progress {
+  background-color: rgba(200, 200, 200, .3) !important
+}
+
+
+@media (min-width: 1460px) and (min-height: 960px) {
+  #fad-foreground {
+    transform: scale(1.2)
+  }
+}
+
+
+/* Rotate turntable */
+#fad-art-image {
+  animation: rotate-cover_img 24s linear infinite paused
+}
+
+@keyframes rotate-cover_img {
+  from {
+    transform: rotate(0)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}

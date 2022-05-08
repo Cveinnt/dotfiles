@@ -1,0 +1,69 @@
+# map u scroll half-up
+# map d scroll half-down
+# map D toggle_page_mode
+# map r reload
+# map R rotate
+# map i recolor
+map <C-s> toggle_statusbar
+# map <C-c> zoom best-fit
+# 
+# set guioptions "sv"
+# set statusbar-basename true
+# set window-title-basename true
+# set statusbar-h-padding 0
+# set statusbar-v-padding 0
+# set page-padding 1
+# set selection-clipboard clipboard
+# set window-height 800
+# set window-width 1200
+
+# Base16 Nord
+set recolor true
+
+# Lorago recolor
+# set recolor-lightcolor '#11171d'
+# set recolor-darkcolor '#1D1F28'
+
+# Nord recolor
+# set recolor-lightcolor          "#2e3440"
+# set recolor-darkcolor           "#d8dee9"
+
+# Elenapan - Lovelace
+set recolor-lightcolor          "#1D1F28"
+set recolor-darkcolor           "#FDFDFD"
+
+set font                        "SFMono Nerd Font 12"
+# Nord 
+# set default-bg                  "#2e3440"
+# set default-fg                  "#d8dee9"
+set default-bg                  "#1D1F28"
+set default-fg                  "#FDFDFD"
+
+set statusbar-fg                "#d8dee9"
+set statusbar-bg                "#3b4252"
+
+set inputbar-bg                 "#3b4252"
+set inputbar-fg                 "#8FBCBB"
+
+set notification-bg             "#2E3440"
+set notification-fg             "#8FBCBB"
+
+set notification-error-bg       "#2E3440"
+set notification-error-fg       "#BF616A"
+
+set notification-warning-bg     "#2E3440"
+set notification-warning-fg     "#BF616A"
+
+set highlight-color             "#5e81ac"
+set highlight-active-color      "#81a1c1"
+
+set completion-bg               "#3b4252"
+set completion-group-bg         "#434c5e"
+set completion-fg               "#d8dee9"
+set completion-highlight-fg     "#23e440"
+set completion-highlight-bg     "#81a1c1"
+
+set index-bg                    "#2e3440"
+set index-fg                    "#dddddd"
+set index-active-bg             "#81a1c1"
+set index-active-fg             "#2e3440"

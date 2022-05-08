@@ -1,0 +1,10 @@
+{
+	"blacklist": [],
+	"settings": {
+		"addClearButton": true,
+		"confirmClear": false,
+		"includeGuilds": true,
+		"includeMuted": false,
+		"includeDMs": false
+	}
+}

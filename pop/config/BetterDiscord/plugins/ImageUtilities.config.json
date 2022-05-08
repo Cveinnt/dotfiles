@@ -1,0 +1,40 @@
+{
+	"amounts": {
+		"hoverDelay": 0
+	},
+	"engines": {
+		"_all": true,
+		"Baidu": true,
+		"Bing": true,
+		"Google": true,
+		"ImgOps": true,
+		"IQDB": true,
+		"Reddit": true,
+		"SauceNAO": true,
+		"Sogou": true,
+		"TinEye": true,
+		"WhatAnime": true,
+		"Yandex": true
+	},
+	"general": {
+		"resizeImage": true,
+		"addDetails": true,
+		"showAsHeader": true,
+		"showOnHover": false,
+		"enableGallery": true,
+		"enableZoom": true,
+		"pixelZoom": false,
+		"enableCopyImg": true,
+		"enableSaveImg": true
+	},
+	"places": {
+		"userAvatars": true,
+		"groupIcons": true,
+		"guildIcons": true,
+		"emojis": true
+	},
+	"zoomSettings": {
+		"lensSize": 200,
+		"zoomLevel": 2
+	}
+}

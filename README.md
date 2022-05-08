@@ -6,6 +6,10 @@
   <b>👉 Vincent's configuration files 👈</b>
 </p>
 
+Table of Contents:
+- [MacOS:](#macos)
+- [PopOS:](#popos)
+
 ## MacOS:
 <img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="400px">
 
@@ -38,6 +42,41 @@
     - [bashtop](https://github.com/aristocratos/bashtop)
     - [yant](https://github.com/Cveinnt/yant)
     - [neofetch](https://github.com/dylanaraps/neofetch)
+    - [lolcat](https://github.com/busyloop/lolcat)
+    - [cava](https://github.com/karlstav/cava)
+    - [pipes.sh](https://github.com/pipeseroni/pipes.sh)
+
+
+
+
+## PopOS:
+<img src="images/pop-demo.png" alt="img" align="right" width="400px">
+
+- *wm* – Pop OS default
+- *terminals:* 
+  * [kitty](https://github.com/kovidgoyal/kitty)
+  * [hyper](https://hyper.is/)
+- *editor* – [neovim](https://github.com/neovim/neovim)
+  - *plugin* - [vapournvim](https://github.com/VapourNvim/VapourNvim)
+- *editor* – [vscode](https://code.visualstudio.com/)
+- *browser* – brave/firefox
+- *pdf reader* - zathura
+- *theme* – Nordic-darker-v40
+- *prompt* – [oh-my-zsh](https://ohmyz.sh/)
+- *fonts:*
+  * [hack nerd font](https://www.nerdfonts.com/font-downloads)
+  * [meslo nerd font](https://www.nerdfonts.com/font-downloads)
+- *wallpapers* – [here](/images)
+- *some terminal tools*:
+    - [ag](https://github.com/ggreer/the_silver_searcher)
+    - [ripgrep](https://github.com/BurntSushi/ripgrep)
+    - [zoxide](https://github.com/ajeetdsouza/zoxide)
+    - [exa](https://github.com/ogham/exa)
+- *colorful terminal stuff*:
+    - [gotop](https://github.com/)
+    - [yant](https://github.com/Cveinnt/yant)
+    - [neofetch](https://github.com/dylanaraps/neofetch)
+    - ncmpcpp
     - [lolcat](https://github.com/busyloop/lolcat)
     - [cava](https://github.com/karlstav/cava)
     - [pipes.sh](https://github.com/pipeseroni/pipes.sh)
