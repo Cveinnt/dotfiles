@@ -6,10 +6,9 @@
   <b>👉 Vincent's configuration files 👈</b>
 </p>
 
-## MacOS
-### Screenshots:
-![I really like Dracula](/images/mac_demo.png)
-### Info:
+## MacOS:
+<img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="350px">
+
 - *wm* – [yabai](https://github.com/koekeishiya/yabai)
 - *bar* – [simple-bar](https://github.com/Jean-Tinland/simple-bar)
 - *hotkey daemon* – [skhd](https://github.com/koekeishiya/skhd)
