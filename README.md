@@ -1,5 +1,10 @@
-# dotfiles
-list of dotfiles for my mac & linux setups
+<p align="center">
+  <img width="25%" src="https://github.com/cveinnt.png" />
+</p>
+
+<p align="center">
+  <b>👉 Vincent's configuration files 👈</b>
+</p>
 
 ## MacOS
 ### Screenshots:
