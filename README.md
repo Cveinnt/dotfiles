@@ -7,7 +7,7 @@
 </p>
 
 ## MacOS:
-<img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="350px">
+<img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="400px">
 
 - *wm* – [yabai](https://github.com/koekeishiya/yabai)
 - *bar* – [simple-bar](https://github.com/Jean-Tinland/simple-bar)
