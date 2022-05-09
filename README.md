@@ -46,10 +46,11 @@ Contents:
     - [ripgrep](https://github.com/BurntSushi/ripgrep)
     - [zoxide](https://github.com/ajeetdsouza/zoxide)
     - [exa](https://github.com/ogham/exa)
-- *colorful terminal stuff*:
+- *cool terminal stuff*:
+    - [neofetch](https://github.com/dylanaraps/neofetch)
     - [bashtop](https://github.com/aristocratos/bashtop)
     - [yant](https://github.com/Cveinnt/yant)
-    - [neofetch](https://github.com/dylanaraps/neofetch)
+    - [mpd+ncmpcpp](https://gist.github.com/sdushantha/fd0b4f7d69b814317bc33da3a57fdf49)
     - [lolcat](https://github.com/busyloop/lolcat)
     - [cava](https://github.com/karlstav/cava)
     - [pipes.sh](https://github.com/pipeseroni/pipes.sh)
