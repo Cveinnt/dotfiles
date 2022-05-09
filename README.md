@@ -18,7 +18,7 @@ Contents:
 
 ---
 
-## MacOS:
+## MacOS - Dracula:
 <img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="400px">
 
 - *wm* – [yabai](https://github.com/koekeishiya/yabai)
@@ -58,7 +58,7 @@ Contents:
 
 
 
-## PopOS:
+## PopOS - Nord:
 <img src="images/pop-demo.png" alt="img" align="right" width="400px">
 
 - *wm* – Pop OS default
