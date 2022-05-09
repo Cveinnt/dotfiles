@@ -6,9 +6,17 @@
   <b>👉 Vincent's configuration files 👈</b>
 </p>
 
-Table of Contents:
+Contents:
+- [Screenshots:](#screenshots)
 - [MacOS:](#macos)
 - [PopOS:](#popos)
+
+---
+
+## Screenshots:
+![mac](/images/mac.png)
+
+---
 
 ## MacOS:
 <img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="400px">
