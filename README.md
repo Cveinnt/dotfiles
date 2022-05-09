@@ -8,8 +8,8 @@
 
 Contents:
 - [Screenshots:](#screenshots)
-- [MacOS:](#macos)
-- [PopOS:](#popos)
+- [MacOS - Dracula:](#macos---dracula)
+- [PopOS - Nord:](#popos---nord)
 
 ---
 
@@ -18,7 +18,7 @@ Contents:
 
 ---
 
-## MacOS - Dracula:
+## MacOS - Dracula: 
 <img src="https://raw.githubusercontent.com/Cveinnt/dotfiles/main/images/mac_demo.png" alt="img" align="right" width="400px">
 
 - *wm* – [yabai](https://github.com/koekeishiya/yabai)
