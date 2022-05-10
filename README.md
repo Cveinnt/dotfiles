@@ -1,9 +1,15 @@
 <p align="center">
-  <img width="25%" src="https://github.com/cveinnt.png" />
+  <img width="20%" src="https://github.com/cveinnt.png" />
 </p>
 
 <p align="center">
-  <b>👉 Vincent's configuration files 👈</b>
+  <b>👉 vincent's configuration files 👈</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MAINTAINED-YES-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/Cveinnt/dotfiles?style=for-the-badge">
 </p>
 
 Contents:
